@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Tech Music - Login
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="login-body">
+    <main class="login-container">
+      <div class="login-logo">
+        🎵
+      </div>
+      <h1>
+        Tech Music
+      </h1>
+      <p class="login-subtitle">
+        Música e seus significados
+      </p>
+      <form id="formLogin">
+        <div class="form-group">
+          <label for="loginUsuario">
+            Usuário
+          </label>
+          <input type="text" id="loginUsuario" placeholder="Digite seu usuário" required >
+        </div>
+        <div class="form-group">
+          <label for="loginSenha">
+            Senha
+          </label>
+          <input type="password" id="loginSenha" placeholder="Digite sua senha" required >
+        </div>
+        <button type="submit" class="btn-primary">
+          Entrar
+        </button>
+      </form>
+      <p id="mensagemLogin" class="mensagem">
+      </p>
+      <div class="login-links">
+        <p>
+          Ainda não possui uma conta?
+          <a href="cadastro.html">
+            Criar conta
+          </a>
+        </p>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Tech Music - Cadastro
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="login-body">
+    <main class="login-container cadastro-container">
+      <div class="login-logo">
+        🎵
+      </div>
+      <h1>
+        Tech Music
+      </h1>
+      <p class="login-subtitle">
+        Criar nova conta
+      </p>
+      <form id="formCadastro">
+        <div class="form-group">
+          <label for="nome">
+            Nome completo
+          </label>
+          <input type="text" id="nome" placeholder="Digite seu nome" required >
+        </div>
+        <div class="form-group">
+          <label for="email">
+            E-mail
+          </label>
+          <input type="email" id="email" placeholder="Digite seu e-mail" required >
+        </div>
+        <div class="form-group">
+          <label for="usuario">
+            Usuário
+          </label>
+          <input type="text" id="usuario" placeholder="Escolha um usuário" required >
+        </div>
+        <div class="form-group">
+          <label for="senha">
+            Senha
+          </label>
+          <input type="password" id="senha" placeholder="Mínimo de 6 caracteres" required >
+        </div>
+        <div class="form-group">
+          <label for="confirmarSenha">
+            Confirmar senha
+          </label>
+          <input type="password" id="confirmarSenha" placeholder="Digite a senha novamente" required >
+        </div>
+        <button type="submit" class="btn-primary">
+          Criar conta
+        </button>
+      </form>
+      <p id="mensagemCadastro" class="mensagem">
+      </p>
+      <div class="login-links">
+        <p>
+          Já possui uma conta?
+          <a href="index.html">
+            Entrar
+          </a>
+        </p>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Tech Music - Música e Significados
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="music-body">
+    <!-- BOTÃO DO MENU -->
+    <button class="menu-btn" id="menuBtn">
+      ☰
+    </button>
+    <!-- MENU LATERAL -->
+    <nav id="menu" class="side-menu">
+      <div class="menu-logo">
+        🎵 Tech Music
+      </div>
+      <a href="#inicio">
+        🏠 Início
+      </a>
+      <a href="#sobre">
+        📖 Sobre
+      </a>
+      <a href="#musicas">
+        🎧 Músicas
+      </a>
+      <a href="#contato">
+        📩 Contato
+      </a>
+      <button id="btnSair" class="btn-sair">
+        🚪 Sair
+      </button>
+    </nav>
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="site-content">
+      <!-- CABEÇALHO -->
+      <header class="hero" id="inicio">
+        <div class="hero-content">
+          <span class="hero-icon">
+            🎵
+          </span>
+          <h1>
+            Música e Seus Significados
+          </h1>
+          <p>
+            Descubra histórias, emoções e significados por trás das suas músicas favoritas.
+          </p>
+          <a href="#musicas" class="hero-button">
+            Explorar músicas
+          </a>
+        </div>
+      </header>
+      <main>
+        <!-- INÍCIO -->
+        <section class="content-section">
+          <span class="section-tag">
+            BEM-VINDO
+          </span>
+          <h2>
+            🎶 Bem-vindo ao Tech Music
+          </h2>
+          <p>
+            Este site foi criado para explorar músicas, artistas e os sentimentos presentes em suas letras.
+          </p>
+          <p>
+            Aqui você poderá conhecer diferentes artistas e entender melhor as histórias e emoções presentes em suas músicas.
+          </p>
+        </section>
+        <!-- SOBRE -->
+        <section id="sobre" class="content-section">
+          <span class="section-tag">
+            SOBRE
+          </span>
+          <h2>
+            📖 Sobre o site
+          </h2>
+          <p>
+            O Tech Music apresenta informações sobre artistas de diferentes estilos, como indie rock, indie pop, lo-fi, surf rock e rock alternativo.
+          </p>
+          <p>
+            A ideia é mostrar que uma música pode transmitir muito mais do que apenas um som: ela pode representar sentimentos, experiências, relacionamentos, nostalgia e momentos da vida.
+          </p>
+        </section>
+        <!-- ARTISTAS -->
+        <section id="musicas" class="content-section">
+          <span class="section-tag">
+            MÚSICAS
+          </span>
+          <h2>
+            🎧 Artistas e significados
+          </h2>
+          <!-- ROAR -->
+          <article class="artist-card">
+            <div class="artist-header">
+              <span>
+                🎸
+              </span>
+              <h3>
+                ROAR
+              </h3>
+            </div>
+            <div class="artist-info">
+              <h4>
+                Fundador
+              </h4>
+              <p>
+                ROAR é um projeto musical criado pelo cantor e compositor Owen Evans em 2010, em Phoenix, Arizona.
+              </p>
+              <h4>
+                Estilo musical
+              </h4>
+              <p>
+                O projeto mistura indie rock, indie pop e lo-fi, criando uma sonoridade melancólica e introspectiva.
+              </p>
+              <h4>
+                Temas das letras
+              </h4>
+              <p>
+                As músicas abordam ansiedade, solidão, amor, identidade e dificuldades da vida.
+              </p>
+            </div>
+            <div class="song">
+              <h3>
+                I Can't Handle Change
+              </h3>
+              <p>
+                A música fala sobre ansiedade, insegurança e dificuldade em lidar com mudanças.
+              </p>
+              <p class="summary">
+                <strong>
+                  Resumo:
+                </strong>
+                Uma reflexão sobre medo, mudanças e dificuldades emocionais.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/f1V0cQFyC7E" title="I Can't Handle Change" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                Christmas Kids
+              </h3>
+              <p>
+                A música fala sobre obsessão, controle e um relacionamento tóxico.
+              </p>
+              <p class="summary">
+                <strong>
+                  Resumo:
+                </strong>
+                Uma história sobre amor tóxico e perda de liberdade dentro de uma relação.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/J6GE0XnIv7A" title="Christmas Kids" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </article>
+          <!-- TV GIRL -->
+          <article class="artist-card">
+            <div class="artist-header">
+              <span>
+                📺
+              </span>
+              <h3>
+                TV GIRL
+              </h3>
+            </div>
+            <div class="artist-info">
+              <h4>
+                Fundador
+              </h4>
+              <p>
+                TV Girl é uma banda americana de indie pop formada em 2010 por Brad Petering.
+              </p>
+              <h4>
+                Estilo musical
+              </h4>
+              <p>
+                O grupo mistura indie pop e lo-fi, utilizando samples e uma sonoridade nostálgica.
+              </p>
+              <h4>
+                Temas das letras
+              </h4>
+              <p>
+                As letras costumam falar sobre amor, relacionamentos, nostalgia e experiências emocionais.
+              </p>
+            </div>
+            <div class="song">
+              <h3>
+                Blue Hair
+              </h3>
+              <p>
+                A música aborda identidade, liberdade e a percepção sobre uma pessoa diferente e marcante.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/PzIXNqpCug0" title="Blue Hair" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                Lovers Rock
+              </h3>
+              <p>
+                Fala sobre amor, desejo e relacionamentos idealizados, misturando romance e nostalgia.
+              </p>
+              <p class="summary">
+                <strong>
+                  Resumo:
+                </strong>
+                Amor, paixão e altos e baixos dos relacionamentos.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/jsGJuncn8" title="Lovers Rock" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                Cigarettes Out The Window
+              </h3>
+              <p>
+                A música apresenta sentimentos relacionados ao fim de um relacionamento e ao desapego.
+              </p>
+              <p class="summary">
+                <strong>
+                  Resumo:
+                </strong>
+                Terminar, desapegar e lidar com o fim de uma relação.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/CJHhyxJp5ug" title="Cigarettes Out The Window" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </article>
+          <!-- SURF CURSE -->
+          <article class="artist-card">
+            <div class="artist-header">
+              <span>
+                🏄
+              </span>
+              <h3>
+                SURF CURSE
+              </h3>
+            </div>
+            <div class="artist-info">
+              <h4>
+                Fundadores
+              </h4>
+              <p>
+                Surf Curse foi formada em 2010 por Nick Rattigan e Jacob Rubeck.
+              </p>
+              <h4>
+                Estilo musical
+              </h4>
+              <p>
+                O grupo mistura indie rock, surf rock, post-punk e lo-fi.
+              </p>
+              <h4>
+                Temas das letras
+              </h4>
+              <p>
+                Juventude, relacionamentos, insegurança, solidão e experiências do cotidiano.
+              </p>
+            </div>
+            <div class="song">
+              <h3>
+                Freaks
+              </h3>
+              <p>
+                A música transmite uma sensação de juventude, ansiedade, energia e sentimento de estar deslocado.
+              </p>
+              <p class="summary">
+                <strong>
+                  Resumo:
+                </strong>
+                Emoções intensas e o caos da vida jovem.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/NfMegACVJQw" title="Freaks" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                Disco
+              </h3>
+              <p>
+                Fala sobre sentimentos intensos de amor, desejo e insegurança.
+              </p>
+              <p class="summary">
+                <strong>
+                  Resumo:
+                </strong>
+                Paixão, diversão e confusão emocional.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/hzO05Nb4_Hg" title="Disco" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </article>
+          <!-- MAC DEMARCO -->
+          <article class="artist-card">
+            <div class="artist-header">
+              <span>
+                🌙
+              </span>
+              <h3>
+                MAC DEMARCO
+              </h3>
+            </div>
+            <div class="song">
+              <h3>
+                Moonlight On The River
+              </h3>
+              <p>
+                Uma música suave e introspectiva sobre amor, memórias e sentimentos.
+              </p>
+              <p class="summary">
+                <strong>
+                  Resumo:
+                </strong>
+                Amor e memórias com nostalgia e suavidade.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/1VYbKamjB-4" title="Moonlight On The River" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                Chamber of Reflection
+              </h3>
+              <p>
+                A música mergulha em introspecção, isolamento e reflexão sobre a própria vida.
+              </p>
+              <p class="summary">
+                <strong>
+                  Resumo:
+                </strong>
+                Isolamento e reflexão sobre identidade.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/pQsF3pzOc54" title="Chamber of Reflection" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                For The First Time
+              </h3>
+              <p>
+                Fala sobre redescobrir sentimentos e experiências depois de muito tempo.
+              </p>
+              <p class="summary">
+                <strong>
+                  Resumo:
+                </strong>
+                Nostalgia, vulnerabilidade e redescoberta.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/cZCm_i6YvAk" title="For The First Time" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </article>
+          <!-- VACATIONS -->
+          <article class="artist-card">
+            <div class="artist-header">
+              <span>
+                🌴
+              </span>
+              <h3>
+                VACATIONS
+              </h3>
+            </div>
+            <div class="song">
+              <h3>
+                Telephones
+              </h3>
+              <p>
+                A música apresenta sentimentos relacionados à distância emocional, saudade e dificuldade de comunicação.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/y7B6Z-_-Bcc" title="Telephones" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                Young
+              </h3>
+              <p>
+                Fala sobre juventude, liberdade, intensidade e viver o presente.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/nK61uvq5tX4" title="Young" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                Relax
+              </h3>
+              <p>
+                Fala sobre desacelerar, fugir do estresse e buscar tranquilidade mental.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/3LxU0PrsAFQ" title="Relax" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                Away
+              </h3>
+              <p>
+                Fala sobre distância, solidão e a sensação de estar desconectado do mundo.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/fvgdy1NdDns" title="Away" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                Friends
+              </h3>
+              <p>
+                Fala sobre amizades e relações que possuem sentimentos misturados e complicados.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/MycGy3afqgo" title="Friends" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </article>
+          <!-- ARCTIC MONKEYS -->
+          <article class="artist-card">
+            <div class="artist-header">
+              <span>
+                🐒
+              </span>
+              <h3>
+                ARCTIC MONKEYS
+              </h3>
+            </div>
+            <div class="artist-info">
+              <h4>
+                Sobre a banda
+              </h4>
+              <p>
+                Arctic Monkeys foi formada em 2002, em Sheffield, no Reino Unido.
+              </p>
+              <h4>
+                Estilo musical
+              </h4>
+              <p>
+                A banda começou com indie rock e garage rock, incorporando posteriormente elementos de outros estilos.
+              </p>
+              <h4>
+                Temas das letras
+              </h4>
+              <p>
+                Relacionamentos, juventude, vida noturna, experiências cotidianas e comportamento social.
+              </p>
+            </div>
+            <div class="song">
+              <h3>
+                505
+              </h3>
+              <p>
+                Uma música sobre saudade intensa e desejo de estar novamente com alguém.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/qU9mHegkTc4" title="505" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                Number 1 Party Anthem
+              </h3>
+              <p>
+                Fala sobre solidão e a busca por uma conexão verdadeira em meio a festas e relações rasas.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/mGUjVbsYG6E" title="Number 1 Party Anthem" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                R U Mine?
+              </h3>
+              <p>
+                Fala sobre desejo intenso, atração e insegurança sobre os sentimentos da outra pessoa.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/giLpYG11qxQ" title="R U Mine?" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                Do I Wanna Know?
+              </h3>
+              <p>
+                Fala sobre paixão, dúvidas e a insegurança de não saber se os sentimentos são correspondidos.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/pqrUQrAcfo4" title="Do I Wanna Know?" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </article>
+          <!-- CURRENT JOYS -->
+          <article class="artist-card">
+            <div class="artist-header">
+              <span>
+                🌑
+              </span>
+              <h3>
+                CURRENT JOYS
+              </h3>
+            </div>
+            <div class="song">
+              <h3>
+                New Flesh
+              </h3>
+              <p>
+                A música fala sobre vulnerabilidade, dor emocional e dificuldade de conexão.
+              </p>
+              <p class="summary">
+                <strong>
+                  Resumo:
+                </strong>
+                Dor emocional e desconexão.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/5XtjPMdPN1o" title="New Flesh" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                Blondie
+              </h3>
+              <p>
+                Fala sobre desilusão, solidão e sentimentos de desconexão.
+              </p>
+              <p class="summary">
+                <strong>
+                  Resumo:
+                </strong>
+                Tristeza, nostalgia e emoções difíceis.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/Zm_GfzD80hQ" title="Blondie" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="song">
+              <h3>
+                Kids
+              </h3>
+              <p>
+                Fala sobre juventude, erros, descobertas e lembranças do passado.
+              </p>
+              <p class="summary">
+                <strong>
+                  Resumo:
+                </strong>
+                Nostalgia e lições da juventude.
+              </p>
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/NWE4ddnlNKA" title="Kids" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </article>
+        </section>
+        <!-- CONTATO -->
+        <section id="contato" class="content-section contact-section">
+          <span class="section-tag">
+            CONTATO
+          </span>
+          <h2>
+            📩 Entre em contato
+          </h2>
+          <p>
+            Tem alguma sugestão de música ou artista?
+          </p>
+          <p>
+            <strong>
+              E-mail:
+            </strong>
+            musicassignificados@gmail.com
+          </p>
+          <p>
+            <strong>
+              Instagram:
+            </strong>
+            @seuinsta
+          </p>
+        </section>
+      </main>
+      <footer>
+        <p>
+          © 2026 Tech Music — Música e seus significados 🎵
+        </p>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+
